@@ -29,19 +29,19 @@ public class ReviewString {
 	       System.out.println(para.endsWith("dog."));
 	       
 		
-		 /** INT COUNT = 0; FOR(INT I =0; I<PARA.LENGTH(); I++) { IF(PARA.CHARAT(I) ==
-		 * 'A') { COUNT++;
-		 * 
-		 * }
-		 * 
-		 * } SYSTEM.OUT.PRINTLN(COUNT);
-		 * 
-		 * SYSTEM.OUT.PRINTLN(PARA.SUBSTRING(PARA.LENGTH()/2));
-		 * SYSTEM.OUT.PRINTLN(PARA.SUBSTRING(10, 20));
-		 * 
-		 * FOR(INT I=PARA.LENGTH(); I>0; I--){ SYSTEM.OUT.PRINTLN(PARA.CHARAT(I)); }
-		 * SYSTEM.OUT.PRINTLN(PARA.TRIM());
-		 */*/
+		  INT COUNT = 0; FOR(INT I =0; I<PARA.LENGTH(); I++) { IF(PARA.CHARAT(I) ==
+		  'A') { COUNT++;
+		  
+		  }
+		  
+		  } SYSTEM.OUT.PRINTLN(COUNT);
+		  
+		  SYSTEM.OUT.PRINTLN(PARA.SUBSTRING(PARA.LENGTH()/2));
+		  SYSTEM.OUT.PRINTLN(PARA.SUBSTRING(10, 20));
+		  
+		  FOR(INT I=PARA.LENGTH(); I>0; I--){ SYSTEM.OUT.PRINTLN(PARA.CHARAT(I)); }
+		  SYSTEM.OUT.PRINTLN(PARA.TRIM());
+		 
 	}
 
 }

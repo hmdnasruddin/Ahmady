@@ -12,7 +12,7 @@ public class Reveiw2DArray {
 
 		double sum = 0;
 		for (int i = 0; i < ratting[1].length; i++) {
-			sum += ratting[1][i];
+			sum += ratting[2][i];
 		}
 		
 		System.out.println(sum/ratting[1].length);

@@ -2,13 +2,13 @@
 public class StringManipulation {
 
 	public static void main(String[] args) {
-		String str="Good morning, student!";
-		boolean contains=str.contains("students");
+		String str="Erfan Jan";
+		boolean contains=str.contains("Erfan Jan");
 		System.out.println(contains);
+		
 		
 		String present="Welcome, Mehmet";
 		String nedeedValue="Welcome";
-				
 		boolean flag=present.contains(nedeedValue);
 		System.out.println(flag);
 		
@@ -42,6 +42,14 @@ public class StringManipulation {
 		System.out.println(expected.equals(actual));
 	
 
+
+			    
+			   String s1="hello";
+				    String s2="";
+				    boolean isNotEmpty=s1.isEmpty();
+				    System.out.println(isNotEmpty);
+				    System.out.println(isEmpty);
+	    
 	}
 
 }
