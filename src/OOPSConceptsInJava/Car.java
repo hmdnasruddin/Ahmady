@@ -15,7 +15,7 @@ public class Car {
 		car1.door=4;
 		car1.wheels=4;
 		// Car honda has 4 wheels
-		System.out.println("Car "+car1.make+" has "+car1.wheels+" wheels");
+		System.out.println("Car "+car1.make+" has "+car1.wheels+ " wheels " +car1.color+ " color");
 		//define behaviour
 		car1.drive();
 		car1.reverse();
@@ -45,6 +45,8 @@ public class Car {
 	
 	void stop() {
 		System.out.println("Car can stop");
+		
+		
 		//1. features/attributes/state
 		   // mouse, keyboard, screen, ram, os
 		   //2. actions/behaviour
