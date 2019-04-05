@@ -11,9 +11,8 @@ public class ReplStringMethods75 {
 		 * language is C++?It should print the C++ is a middle-level pro1gramming
 		 * language If any other? should print Doesn't match any programming language
 		 */
-
+		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter any programming language");
-		
 		String language =sc.nextLine();
 		  //
 		  String a="Java";
