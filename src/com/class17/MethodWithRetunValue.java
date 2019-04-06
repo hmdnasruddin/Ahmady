@@ -19,6 +19,7 @@ public class MethodWithRetunValue {
 	}
 	String whatIsADay() {
 		return "Thursday";
+		
 	}
 
 }

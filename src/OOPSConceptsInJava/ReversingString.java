@@ -2,7 +2,7 @@ package OOPSConceptsInJava;
 
 public class ReversingString {
     public static void main(String[]args) {
-	void vowelCountWithLoop() {
+	
         String weqas="hello world my name Is wEqas";
         
         char[] w=weqas.toCharArray();
@@ -15,10 +15,11 @@ public class ReversingString {
             }
             
         }
-	} 
+	}
+    
         
         
-    }
+    
     
     
     void vowelCountWithReplaceAll() {
