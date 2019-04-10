@@ -1,7 +1,6 @@
 package OOPSConceptsInJava;
 
 public class Car {
-
 	String make, model, color;
 	int door, wheels;
 	
