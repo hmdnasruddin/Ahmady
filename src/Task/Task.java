@@ -7,7 +7,7 @@ public class Task {
 
 		Task obj = new Task();
 		String email = obj.createEmail("John", "Snow", "gmail");
-		email = obj.createEmail("Bob", "Snow", "outlook");
+		email = obj.createEmail("Bob ", " Snow", " outlook");
 		System.out.println(email);
 
 
