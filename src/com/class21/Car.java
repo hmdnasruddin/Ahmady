@@ -15,7 +15,7 @@ public class Car {
 		car2.color="Black";
 		totalCars++;
 		
-		System.out.println("Total car we nade is "+ totalCars);
+		System.out.println("Total car we made is "+ totalCars);
 		
 
 	}
