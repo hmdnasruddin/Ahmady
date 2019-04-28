@@ -5,7 +5,6 @@ public class Test {
 	public static void main(String[] args) {
 		System.out.println("---Creating Employee object---");
 		Employee emp=new Employee();
-		System.out.println(Employee.department);
 		emp.salary=90000;
 		emp.getPaid();
 
@@ -15,8 +14,9 @@ public class Test {
 		st.getPaid();
 		st.artifacts="Product Backlog,Sprint Backlog, BurnDown chart";
 		st.ceremonies="Sprit grooming, Sprint Planning, Daily StandUp, Sprint Demo, Sprint Retro";
-		st.attendScrumMeetings();
+		st.attendMeetings();
 		st.workOnArtifacts();
+	
 		
 		System.out.println("---Creating Developer object---");
 		Developer dev =new Developer();
@@ -26,7 +26,7 @@ public class Test {
 		dev.artifacts="Sprit backlog";
 		dev.ceremonies="Sprit grooming, Sprint Planning, Daily StandUp, Sprint Demo, Sprint Retro";
 		dev.workOnArtifacts();
-		dev.attendScrumMeetings();
+		dev.attendMeetings();
 		dev.code();
 		
 		System.out.println("---Creating Tester object---");
@@ -36,7 +36,7 @@ public class Test {
 		qa.artifacts="Sprit backlog";
 		qa.ceremonies="Sprit grooming, Sprint Planning, Daily StandUp, Sprint Demo, Sprint Retro";
 		qa.workOnArtifacts();
-		qa.attendScrumMeetings();
+		qa.attendMeetings();
 		qa.test();
 	
 		System.out.println("---Creating Bussiness Analyst object---");
@@ -46,7 +46,7 @@ public class Test {
 		ba.artifacts="Sprit backlog, Product Backlog";
 		ba.ceremonies="Sprit grooming, Sprint Planning, Daily StandUp, Sprint Demo, Sprint Retro";
 		ba.workOnArtifacts();
-		ba.attendScrumMeetings();
+		ba.attendMeetings();
 		ba.writeUserStories();
 		
 		System.out.println("---Creating Scrum Master object---");
@@ -66,8 +66,8 @@ public class Test {
 		po.artifacts="Sprit backlog, Product Backlog";
 		po.ceremonies="Sprit grooming, Sprint Planning, Sprint Demo";
 		po.workOnArtifacts();
-		po.attendScrumMeetings();
+		po.attendMeetings();
 		po.prioritizeBacklog();
-		po.talkToTheClient();
+		po.talkToTheClien();
 	}
 }

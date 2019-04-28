@@ -4,9 +4,9 @@ public class TestConstructorOverloading {
 
 	public static void main(String[] args) {
 	
-		TestConstructorOverloading obj1=new TestConstructorOverloading();
-		TestConstructorOverloading obj2=new TestConstructorOverloading();
-		TestConstructorOverloading obj3=new TestConstructorOverloading();
+		ConstructorOverloading obj1=new ConstructorOverloading();
+		ConstructorOverloading obj2=new ConstructorOverloading();
+		ConstructorOverloading obj3=new ConstructorOverloading();
 	}
 
 }

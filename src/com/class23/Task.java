@@ -9,15 +9,15 @@ public class Task {
 	 */
 	
 	public void getArea(int a, int b) {
-		System.out.println("The area of rectangle with parameters "+(a*b));
+		System.out.println("Area of rectangle is equals to "+(a*b));
 	}
-	
 	public void getArea(int a) {
-		System.out.println("The area of suquar is equal to "+(a*a));
+		System.out.println("Area of square is equals to "+(a*a));
+		
 	}
-	
 	public void getArea(int a, int b, int c) {
-		System.out.println("The area of cube with parameters is equal to  "+(a*b*c));
+		System.out.println("Area of cube is equals to "+(a*b*c));
+	}
 	}
 
-}
+
